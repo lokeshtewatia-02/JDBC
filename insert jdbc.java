@@ -11,7 +11,7 @@ Class.forName("com.mysql.jdbc.Driver");
 //create a connection
 String url="jdbc:mysql://localhost:3306/youtube";
 String usename="root";
-String password="2003@lokesh";
+String password="Enter your password";
 
 Connection con=DriverManager.getConnection(url,usename,password);
 //create a query
