@@ -8,7 +8,7 @@ class Imagesave {
             Class.forName("com.mysql.cj.jdbc.Driver");
             
             // Connection 
-            Connection con = DriverManager.getConnection("jdbc:mysql://localhost:3306/youtube", "root", "2003@lokesh");
+            Connection con = DriverManager.getConnection("jdbc:mysql://localhost:3306/youtube", "root", "Enter your password");
 
             // Query mein 'images' ki spelling theek ki
             String q = "insert into images(pic) values(?)";
